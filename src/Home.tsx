@@ -413,7 +413,7 @@ function Home() {
     } as CSSProperties)
 
   return (
-    <>
+ <div className="home-page">
       <header className="hero" id="hero">
         <video
           id="v"
@@ -954,7 +954,7 @@ function Home() {
           </a>
         </div>
       </section>
-    </>
+   </div>
   )
 }
 
